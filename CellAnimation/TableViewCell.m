@@ -54,7 +54,6 @@
     [super setSelected:selected animated:animated];
     [UIView animateWithDuration:0.5 animations:^{
         _customContentView.backgroundColor = selected ? [UIColor redColor] : [UIColor lightGrayColor];
-        CATransform3D tf = _label.layer.transform;
         _label.layer.transform = selected ? CATransform3DMakeScale(1.5, 1.5, 1) : CATransform3DIdentity;
     } completion:nil];
 

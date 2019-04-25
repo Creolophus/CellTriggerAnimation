@@ -342,6 +342,7 @@
 			baseConfigurationReference = E8408D31FB8D64157E311942 /* Pods-CellAnimation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZVA2DUKP4L;
 				INFOPLIST_FILE = CellAnimation/Info.plist;
@@ -360,6 +361,7 @@
 			baseConfigurationReference = 4D9DC86618A59C4FD33399BB /* Pods-CellAnimation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZVA2DUKP4L;
 				INFOPLIST_FILE = CellAnimation/Info.plist;
